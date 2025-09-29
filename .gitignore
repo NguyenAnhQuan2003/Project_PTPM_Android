@@ -1,15 +1,31 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# Gradle
+.gradle/
+build/
+
+# Local configuration file (sdk path, etc)
 local.properties
+
+# IDE files
+.idea/
+*.iml
+
+# OS-specific files
+.DS_Store
+
+# Android Studio captures folder
+captures/
+
+# External native build
+.externalNativeBuild/
+.cxx/
+
+# Logs
+*.log
+
+# Generated files
+gen/
+out/
+
+# Keystore files (tùy nếu bạn muốn keep trong repo hay không)
+*.jks
+*.keystore
